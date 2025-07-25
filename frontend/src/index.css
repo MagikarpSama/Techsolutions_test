@@ -1,0 +1,118 @@
+input[type="date"] {
+  width: 100%;
+  max-width: 220px;
+  min-width: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #bfc9d1;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+body {
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+  color: #22223b;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.main-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+  padding: 2rem 2.5rem;
+}
+
+form, .custom-list {
+  background: #f9f9fb;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(44,62,80,0.04);
+  margin-bottom: 1.5rem;
+}
+
+form h2 {
+  color: #3a3a40;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+input, button {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #bfc9d1;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border: 1.5px solid #3498db;
+  outline: none;
+}
+
+button {
+  background: linear-gradient(90deg, #3498db 60%, #6dd5fa 100%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(52,152,219,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #2980b9 60%, #3498db 100%);
+  box-shadow: 0 4px 16px rgba(52,152,219,0.15);
+}
+
+.custom-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-list li {
+  background: #eaf6fb;
+  margin-bottom: 0.7rem;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.custom-list button {
+  margin: 0;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.95rem;
+}
+
+.uf-value {
+  background: #eaf6fb;
+  color: #22223b;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+  .main-container {
+    max-width: 98vw;
+    padding: 1rem 0.5rem;
+  }
+}
