@@ -40,31 +40,32 @@ techsolutions/
 
 ## Instalación y Ejecución
 
+
 ### Backend
-1. Ve a la carpeta `backend`:
+1. Abre una terminal y navega a la carpeta `backend`:
    ```powershell
    cd backend
    ```
-2. Instala dependencias:
+2. Instala las dependencias:
    ```powershell
    npm install
    ```
-3. Ejecuta el servidor:
+3. Inicia el servidor:
    ```powershell
-   node server.js
+   npm start
    ```
    El backend estará disponible en `http://localhost:4000/api/proyectos`.
 
 ### Frontend
-1. Ve a la carpeta `frontend`:
+1. Abre otra terminal y navega a la carpeta `frontend`:
    ```powershell
    cd frontend
    ```
-2. Instala dependencias:
+2. Instala las dependencias:
    ```powershell
    npm install
    ```
-3. Ejecuta la aplicación React:
+3. Inicia la aplicación React:
    ```powershell
    npm start
    ```
